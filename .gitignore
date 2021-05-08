@@ -3,3 +3,9 @@ __pycache__
 chunks_images
 /cnn_model/
 /cnn_vgg16_model/
+/.ipynb_checkpoints/
+/.vscode/
+/.idea
+/*.code-workspace
+/venv
+/pyvenv
