@@ -1,0 +1,5 @@
+Extract.pyc
+__pycache__
+chunks_images
+/cnn_model/
+/cnn_vgg16_model/
