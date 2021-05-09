@@ -48,7 +48,7 @@ def cs_body():
     st.subheader("Exemple de prédiction")
     # Prédiction
     img = '../data/'
-    filename = 'interieur-restaurant.jpg'
+    filename = 'img/interieur-restaurant.jpg'
     image = Image.open(filename)
     st.image(image)
 
