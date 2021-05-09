@@ -15,6 +15,11 @@ st.set_page_config(
 
 
 def main():
+    """
+    Main page
+
+    :return: None
+    """
     cs_sidebar()
     cs_body()
 
@@ -22,6 +27,11 @@ def main():
 
 
 def cs_sidebar():
+    """
+    Sidebar
+
+    :return: None
+    """
     st.sidebar.header('Avis Restau')
     st.sidebar.markdown('''Améliorez le produit IA de votre start-up''', unsafe_allow_html=True)
     st.sidebar.subheader("Analyse des données textuelles")
@@ -36,6 +46,10 @@ def cs_sidebar():
 
 
 def cs_body():
+    """
+    Body
+    :return: None
+    """
     st.header('Analyse des données textuelles')
     image = Image.open('img/wordcloud.png')
     st.image(image)
@@ -51,6 +65,7 @@ def cs_body():
     filename = 'img/interieur-restaurant.jpg'
     image = Image.open(filename)
     st.image(image)
+
 
     model = keras.models.load_model("cnn_vgg16_model")
     image = load_img(filename, target_size=(224, 224))
