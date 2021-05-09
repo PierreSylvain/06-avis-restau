@@ -9,3 +9,4 @@ chunks_images
 /*.code-workspace
 /venv
 /pyvenv
+/models/
