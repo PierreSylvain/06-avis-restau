@@ -1,0 +1,9 @@
+[Unit]
+Description=Avis Restau
+
+[Service]
+Type=simple
+ExecSart-/bin/bash /home/ubuntu/avisrestau/avisrestau.sh
+
+[Install]
+WantedBy=multi-user.target
