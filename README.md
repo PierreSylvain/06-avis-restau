@@ -34,7 +34,7 @@ Solution : utiliser un jeu de données existant de la plateforme Yelp. Contient 
 Problème : s’assurer de la possibilité de collecter de nouvelles donnéesSolution : collecter de nouvelles données via l’API Yelp. Valider la faisabilité de la solution en collectant les  informations relatives à environ 200 restaurants pour une ville en utilisant l’API
 
 ### Outils
-Python et librairies spécialisées NLP/CV.Jupyter Notebook et package Voilà
+Python et librairies spécialisées NLP/CV.Jupyter Notebook et package Streamlit
 
 ## Réalisation
 
