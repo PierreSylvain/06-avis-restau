@@ -54,3 +54,17 @@ Python et librairies spécialisées NLP/CV.Jupyter Notebook et package Voilà
  - stocker les résultats dans un fichier exploitable (par exemple csv)
 
 
+# Site
+Sur le site https://avisrestau.lignedemire.eu 
+
+## Word Cloud
+<img src="img/wordcloud.png" alt="Word Cloud" width="400"/>
+
+## Latent Dirichlet Allocation interactif
+<img src="img/LDA.png" alt="Word Cloud" width="400"/>
+
+## Classification des images (avec test)
+<img src="img/predict.png" alt="Word Cloud" width="400"/>
+
+Note : Aucune donnée n'est conservée sur le site web
+
