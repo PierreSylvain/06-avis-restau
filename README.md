@@ -13,8 +13,6 @@ Votre entreprise souhaite améliorer sa plateforme avec une **nouvelle fonctionn
 
 
 ## Cahier des charges
-
-
 ### Use Case
 En tant qu’utilisateur de Avis Restau, je peux :
  - poster des avis sous forme de commentaires.
@@ -38,7 +36,6 @@ Problème : s’assurer de la possibilité de collecter de nouvelles donnéesSol
 ### Outils
 Python et librairies spécialisées NLP/CV.Jupyter Notebook et package Voilà
 
-
 ## Réalisation
 
 ### Analyse des commentaires pour détecter les différents sujets d’insatisfaction
@@ -52,7 +49,7 @@ Python et librairies spécialisées NLP/CV.Jupyter Notebook et package Voilà
  - visualisation des données de grandes dimensions
 
 ### Collecte d'échantillon de données via l’API Yelp :
- - Fichier CSV de l'API (P6_01_fichierCSV.csv)
+ - Fichier CSV de l'API
  - récupérer uniquement les champs nécessaires
  - stocker les résultats dans un fichier exploitable (par exemple csv)
 
